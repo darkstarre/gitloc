@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'gitloc-megannilles'
+  s.name        = 'gitloc1-megannilles'
   s.version     = '0.1.0'
   s.licenses    = ['MIT']
   s.summary     = "Example project -- gives lines-of-code information for a git repo"
@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
   s.email       = 'darkstarre@hotmail.com'
   s.files       = Dir["**/*"].select { |f| File.file? f }
   s.homepage    = 'https://github.com/darkstarre/gitloc'
+  s.executables << 'gitloc'
 end
