@@ -9,7 +9,8 @@ Gem::Specification.new do |s|
   s.description = "Example project for Code Platoon, see https://github.com/darkstarre/gitloc-- gives lines-of-code information for a git repo."
   s.authors     = ["Megan Nilles"]
   s.email       = 'darkstarre@hotmail.com.com'
-  s.files       = Dir["**/*"].select { |f| File.file? f }
+  s.files       = Dir["**/*"].select { |f| File.file? f } - Dir['*.gem']
   s.homepage    = 'https://github.com/darkstarre/gitloc'
   s.executables << 'gitloc'
+  s.add_development_dependency 'mrspec', '~> 0.3'
 end
