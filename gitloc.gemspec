@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
   s.email       = 'darkstarre@hotmail.com.com'
   s.files       = Dir["**/*"].select { |f| File.file? f }
   s.homepage    = 'https://github.com/darkstarre/gitloc'
+  s.executables << 'gitloc'
 end
