@@ -13,4 +13,5 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/darkstarre/gitloc'
   s.executables << 'gitloc'
   s.add_development_dependency 'mrspec', '~> 0.3'
+  s.add_development_dependency 'pry'
 end
