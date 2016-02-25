@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'gitloc-megannnnnnn'
-  s.version     = '0.1.0'
+  s.version     = Gitloc::VERSION
   s.licenses    = ['MIT']
   s.summary     = "Example project -- gives lines-of-code information for a git repo"
   s.description = "Example project for Code Platoon, see https://github.com/darkstarre/gitloc-- gives lines-of-code information for a git repo."
