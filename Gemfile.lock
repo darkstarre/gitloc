@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gitloc-megannnnnnn (0.1.1)
+    gitloc-megannnnnnn (0.2.0)
 
 GEM
   remote: https://rubygems.org/
